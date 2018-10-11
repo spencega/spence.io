@@ -1,0 +1,8 @@
+body{
+	background-image: url('../img/city.jpg');
+}
+
+#parallax{
+	background: rgba(0,0,0,0.6);
+	z-index: -1;
+}

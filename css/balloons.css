@@ -1,0 +1,13 @@
+body{
+	background-image: url('../img/field.jpg');
+}
+
+#parallax{
+	background: url('../img/balloons.png') 50% 50% no-repeat;
+	background-size: 100%;
+	-webkit-animation: balloons 25s linear 1 forwards;
+	-moz-animation: balloons 25s linear 1 forwards;
+	-o-animation: balloons 25s linear 1 forwards;
+	-ms-animation: balloons 25s linear 1 forwards;
+	animation: balloons 25s linear 1 forwards;
+}

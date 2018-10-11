@@ -1,0 +1,13 @@
+body{
+	background-image: url('../img/forest.jpg');
+}
+
+#parallax{
+	background: url('../img/clouds.png') repeat-x 50% 50%;
+	background-size: cover;
+	-webkit-animation: clouds 80s linear infinite;
+	-moz-animation: clouds 80s linear infinite;
+	-o-animation: clouds 80s linear infinite;
+	-ms-animation: clouds 80s linear infinite;
+	animation: clouds 80s linear infinite;
+}

@@ -1,0 +1,230 @@
+/* ---------------------------------------------
+		To Change
+--------------------------------------------- */
+
+.theme-colour{
+	background-color: #FF8E25;
+	color: #FF8E25;
+}
+
+/* ---------------------------------------------
+		Default Styles
+--------------------------------------------- */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+img{
+	max-width: 100%;
+}
+
+a img{
+	border: none;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+
+html, body{
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{	
+	font-weight: 100;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ---------------------------------------------
+		All
+--------------------------------------------- */
+
+body{
+	background-size: cover;
+}
+
+@-webkit-keyframes clouds {
+    from{
+        background-position:1000px;
+    }
+    to{
+        background-position:0px;
+    }
+}
+
+@-webkit-keyframes balloons {
+    from{
+        background-position:0px 400px;
+    }
+    to{
+        background-position:0px -200px;
+    }
+}
+
+#parallax{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	pointer-events: none;
+}
+
+#content{
+	display: table;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+#content #center{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#logo{
+	opacity: 0;
+	margin: -5% 0 0;
+}
+
+#logo.top{
+	position: absolute;
+	top: 10px;
+	margin: 0 !important;
+}
+
+#logo.bottom{
+	position: absolute;
+	bottom: 10px;
+	margin: 0 !important;
+}
+
+#logo.left{
+	left: 10px;
+}
+
+#logo.right{
+	right: 10px;
+}
+
+#content h1{
+	font-size: 75px;
+	margin: -10% 0 30px;
+	display: none;
+}
+
+#width-wrap{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 320px;
+}
+
+#progress{
+	background: #fff;
+	padding: 2px;
+	margin: 0 0 20px;
+}
+
+#progress span{
+	width: 0%;
+	display: block;
+	padding: 1% 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#subscribe{
+	margin: 0 0 20px;
+}
+
+#subscribe input{
+	display: inline-block;
+	border: none;
+	padding: 5px 2%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	outline: none;
+}
+
+#subscribe input#email{
+	width: 66.5%;
+}
+
+#subscribe input#submit{
+	color: #fff;
+	width: 28%;
+}
+
+#subscribe input#email.error:not(:focus){
+	color: #FF3838;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+:-moz-placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+::-moz-placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+:-ms-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+
+#countdown{
+	width: 100%;
+	display: inline-block;
+	margin: 0 0 20px;
+}
+
+#countdown div{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	font-size: 35px;
+}
+
+#countdown div span{
+	display: block;
+	clear: both;
+	background: transparent;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#progress, #subscribe, #countdown, #social a i{
+	opacity: 0;
+}
+
+#social{
+	width: 100%;
+	text-align: center;
+}
+
+#social a i{
+	padding: 7px;
+	font-size: 18px;
+	cursor: crosshair;
+}
+
+#author{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
